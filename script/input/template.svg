@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="240" viewBox="0 0 400 240">
+  <defs>
+    <pattern id="border" width="100%" height="100%" x="0%" patternUnits="objectBoundingBox">
+      <use transform="scale(.625)" xlink:href="#avatar"/>
+    </pattern>
+    <%= image %>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="400" height="240" fill="#FFF"/>
+    <polygon fill="#9FD3C7" points="0 0 280 0 0 192"/>
+    <circle cx="112" cy="121" r="81" fill="url(#border)" stroke="#FFF" stroke-width="2"/>
+    <text fill="#212121" font-family="Lato-Regular, Lato" font-size="12" opacity=".6">
+      <tspan x="216" y="148"><%= company %></tspan>
+    </text>
+    <text fill="#212121" font-family="Lato-Regular, Lato" font-size="12">
+      <tspan x="216" y="132"><%= title %></tspan>
+    </text>
+    <text fill="#212121" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold">
+      <tspan x="216" y="112"><%= name %></tspan>
+    </text>
+  </g>
+</svg>

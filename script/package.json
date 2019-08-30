@@ -1,0 +1,14 @@
+{
+  "name": "post-svg-script",
+  "version": "1.0.0",
+  "description": "Generate custom SVG files from a template",
+  "main": "index.js",
+  "scripts": {
+    "render": "node index.js"
+  },
+  "author": "Raffaele Gesulfo",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
